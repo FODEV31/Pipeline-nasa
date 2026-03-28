@@ -41,4 +41,4 @@ class NASADataPipeline:
             df.to_csv(filename, index=False, encoding='utf-8')
             print(f"✅ Datos guardados exitosamente en {filename}")
         except Exception as e:
-            print(f"❌ Error al guardar los datos: {e}")
+            print(f"Error al guardar los datos: {e}")
