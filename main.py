@@ -51,6 +51,6 @@ def main():
     except Exception as e:
         print(f"ERROR CRÍTICO durante la ejecución: {e}")
         sys.exit(1)
-
+#prueba
 if __name__ == "__main__":
     main()
